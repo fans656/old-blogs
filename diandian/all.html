@@ -1,0 +1,11 @@
+<html>
+  <body>
+    {% for i_page in i_pages %}
+    <div class="page">
+      <h1>{{i_page}}.html</h1>
+      <object data="/{{i_page}}" width="100%" height="300px">
+      </object>
+    </div>
+    {% endfor %}
+  </body>
+</html>
