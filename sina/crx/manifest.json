@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "sina-migration",
+  "version": "1.0",
+  "permissions": [
+    "http://*.sina.com.cn/*",
+    "http://*.sinaimg.cn/*",
+    "http://ub:5000/*",
+    "activeTab"
+  ],
+  "browser_action": {},
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
